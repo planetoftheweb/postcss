@@ -2,6 +2,7 @@ var gulp = require('gulp'),
   gutil = require('gulp-util'),
   webserver = require('gulp-webserver'),
   postcss = require('gulp-postcss'),
+  autoprefixer = require('autoprefixer'),
 
   source = 'process/css/',
   dest = 'builds/postcss/';
@@ -13,6 +14,7 @@ gulp.task('html', function() {
 gulp.task('css', function() {
   gulp.src(source + 'style.css')
   .pipe(postcss([
+    autoprefixer()
   ]))
   .on('error', gutil.log)
   .pipe(gulp.dest(dest + 'css'));

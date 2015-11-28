@@ -471,6 +471,9 @@ em {
 }
 @media screen and (min-width: 600px) {
     #people .people-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
 }
 @media screen and (min-width: 600px) {
