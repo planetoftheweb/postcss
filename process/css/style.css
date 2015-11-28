@@ -1,7 +1,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 
-/* Main */
+/*! Main */
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -190,7 +190,7 @@ em {
     font-style: normal;
 }
 
-/* Modules */
+/*! Modules */
 .header {
     background: -webkit-linear-gradient(top, rgba(0,0,0,.2), rgba(0,0,0,.5)), url('../images/running.jpg');
     background: linear-gradient( to bottom,

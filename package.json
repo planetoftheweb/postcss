@@ -5,7 +5,9 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
+    "cssnano": "^3.3.2",
     "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.1",
     "gulp-util": "^3.0.7",
     "gulp-webserver": "^0.9.1"
   },
