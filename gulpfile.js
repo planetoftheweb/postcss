@@ -2,8 +2,8 @@ var gulp = require('gulp'),
   gutil = require('gulp-util'),
   webserver = require('gulp-webserver'),
 
-  dest = 'builds/postcss/',
-  source = 'process/css/';
+  source = 'process/css/',
+  dest = 'builds/postcss/';
 
 gulp.task('html', function() {
   gulp.src(dest + '*.html');
