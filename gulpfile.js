@@ -2,7 +2,6 @@ var gulp = require('gulp'),
   gutil = require('gulp-util'),
   webserver = require('gulp-webserver'),
   postcss = require('gulp-postcss'),
-  cssnano = require('cssnano'),
 
   source = 'process/css/',
   dest = 'builds/postcss/';
