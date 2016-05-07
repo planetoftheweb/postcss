@@ -1,4 +1,4 @@
-# Learn AngularJS2: The Basics
+# PostCSS: First Look
 [![PostCSS: First Look](hero.png)](http://www.lynda.com/AngularJS-tutorials/Learn-AngularJS-2-Basics/428058-2.html)
 This is the repository for my course, [PostCSS: First Look](http://www.lynda.com/CSS-tutorials/Building-Responsive-Single-Page-Design-PostCSS/417644-2.html). The full course is available at [lynda.com](http://lynda.com).
 
